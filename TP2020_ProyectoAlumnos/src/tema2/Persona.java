@@ -10,7 +10,9 @@ public class Persona {
     private String nombre;
     private int DNI;
     private int edad; 
-    
+    public Persona () {
+        
+    }
     public Persona(String unNombre, int unDNI, int unaEdad){
         nombre = unNombre;
         DNI = unDNI;
